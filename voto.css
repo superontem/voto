@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+input, button{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    box-shadow: black 2px 5px 20px 5px;
+    transition: 1s;
+}
+input{
+    box-shadow: black 2px 3px 20px 0px;
+}
